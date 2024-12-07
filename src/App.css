@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #e8ae02);
+}
+.title {
+  color: #e8ae02;
+}
+.read-the-docs {
+  color: #995f4c;
+}
+.connect {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+button {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  padding: 10px 20px;
+  border-radius: 0.25rem;
+  border: none;
+  background: #cc2522;
+  color: #e8ae02;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+button:hover {
+  filter: drop-shadow(0 0 2em #e8ae02);
+  cursor: pointer;
+}
+.txData {
+  background-color: #995f4c;
+  font-size: 8px;
+  text-align: left;
+  word-break: break-all;
+}
